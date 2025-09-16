@@ -17,5 +17,7 @@ public class Ejercicio2 {
         System.out.println("La multiplicacion de los numeros es: "+ (num1*num2));
         if(num2 == 0) System.out.println("Error. No se puede dividir entre 0");
         else System.out.println("La division de los numeros es: "+ (num1/num2));
+        
+        scanner.close();
     }
 }
